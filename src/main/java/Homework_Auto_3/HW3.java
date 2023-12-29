@@ -65,7 +65,6 @@ public class HW3 {
                 .click().sendKeys("98873980").keyDown(Keys.ENTER).release().build().perform();
         System.out.println(driver.findElement(By.xpath("//span[@class='field-validation-error']")).getText());
 
-
     }
     public static void Alerts(WebDriver driver){
         driver.findElement(By.id("alertBox")).click();
@@ -81,7 +80,6 @@ public class HW3 {
         alert3.sendKeys("Final step of this task");
         alert3.accept();
         System.out.println(driver.findElement(By.id("output")).getText());
-
     }
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = DriverSetup.setupDriver();

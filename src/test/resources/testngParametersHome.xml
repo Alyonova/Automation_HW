@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite">
+    <test name="Test">
+        <parameter name="search" value = "машина"/>
+        <classes>
+            <class name="Homework4.HW4.Parametersclass"/>
+        </classes>
+    </test>
+   <test name="Test2">
+     <parameter name="search" value = "input"/>
+   <classes>
+       <class name="Homework4.HW4.Parametersclass"/>
+  </classes>
+ </test>
+ <test name="Test3">
+      <parameter name="search" value = "смысл"/>
+ <classes>
+ <class name="Homework4.HW4.Parametersclass"/>
+  </classes>
+   </test>
+
+</suite>

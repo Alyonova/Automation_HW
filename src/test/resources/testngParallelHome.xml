@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite"   parallel="classes" >
+    <test name="Paralleltest">
+    <classes>
+        <class name="Homework4.HW4.parallelismus.ParallelClass1"/>
+        <class name="Homework4.HW4.parallelismus.ParallelClass2"/>
+
+    </classes>
+    </test>
+</suite>

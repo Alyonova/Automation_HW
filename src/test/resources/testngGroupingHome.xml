@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite">
+    <test name="Firstgrouptest">
+    <groups>
+        <run>
+            <include name="first"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="Homework4.HW4.Grouping.Groups"/>
+    </classes>
+    </test>
+    <test name="Secondgrouptest">
+        <groups>
+            <run>
+                <include name="second"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Homework4.HW4.Grouping.Groups"/>
+        </classes>
+    </test>
+</suite>
